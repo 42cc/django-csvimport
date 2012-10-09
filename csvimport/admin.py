@@ -32,6 +32,7 @@ class CSVImportAdmin(ModelAdmin):
             cmd.setup(mappings=obj.field_list, 
                       modelname=obj.model_name, 
                       uploaded=obj.upload_file,
+                      charset='',
                       defaults=defaults)
         errors = cmd.run(logid=obj.id)
         if errors:
