@@ -1,3 +1,5 @@
+fixed some bugs in this fork. But it's still buggy
+
 Django CSV Import
 =================
 
